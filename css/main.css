@@ -62,3 +62,18 @@
     font-style: normal;
  
 }
+
+
+#jumbo {
+
+    height: 100vh;
+
+    background: linear-gradient(135deg, #00c2a2, #bf00ff);
+    background-size: 400% 400%;
+
+    -webkit-animation: Gradient 30s linear infinite;
+    -moz-animation: Gradient 30s linear infinite;
+    -o-animation: Gradient 30s linear infinite;
+    animation: Gradient 30s linear infinite;
+
+}

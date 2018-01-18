@@ -1,6 +1,6 @@
 <!DOCTYPE html>
-<html>
-<head>
+	<html>
+	<head>
  
 		<link rel="icon" type="image/png" href="/favicon.png" />
  
@@ -9,8 +9,34 @@
 		<script src="js/jquery.min.js"></script>
  
 	</head>
-
-<body>
+	<body>
+ 
+		<div id="jumbo" class="card">
+ 
+			<div id="jumbo-text">
+				<h1>Noah Avila</h1>
+				<p class="first">Test Website</p>
+ 
+				<a href="https://www.facebook.com/noahmavila" target="_blank">
+					<div class="social" id="fb"></div>
+				</a>
+				<a href="https://www.twitter.com/avilanoah" target="_blank">
+					<div class="social" id="twitter"></div>
+				</a>
+				<a href="https://www.linkedin.com/in/" target="_blank">
+					<div class="social" id="linkedin"></div>
+				</a>
+				<a href="https://www.github.com/noahavila" target="_blank">
+					<div class="social" id="github"></div>
+				</a>
+				<a href="mailto:noah@metrohacks.org">
+					<div class="social" id="mail"></div>
+				</a>
+ 
+				<div id="jumbo-arrow"></div>
+			</div>
+ 
+		</div>
 
 <h1>Noah Avila</h1>
 

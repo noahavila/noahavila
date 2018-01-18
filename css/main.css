@@ -62,18 +62,408 @@
     font-style: normal;
  
 }
-
-
+ 
+@-webkit-keyframes Gradient {
+ 
+    0% { background-position: 0% 0% }
+    25% { background-position: 0% 100% }
+    50% { background-position: 100% 100% }
+    75% { background-position: 100% 0% }
+ 
+}
+ 
+@-moz-keyframes Gradient {
+ 
+    0% { background-position: 0% 0% }
+    25% { background-position: 0% 100% }
+    50% { background-position: 100% 100% }
+    75% { background-position: 100% 0% }
+ 
+}
+ 
+@-o-keyframes Gradient {
+ 
+    0% { background-position: 0% 0% }
+    25% { background-position: 0% 100% }
+    50% { background-position: 100% 100% }
+    75% { background-position: 100% 0% }
+ 
+}
+ 
+@keyframes Gradient { 
+ 
+    0% { background-position: 0% 0% }
+    25% { background-position: 0% 100% }
+    50% { background-position: 100% 100% }
+    75% { background-position: 100% 0% }
+ 
+}
+ 
+h1 {
+ 
+    font-family: "LoveloLineLight";
+    font-size: 50pt;
+    line-height: 55pt;
+    font-weight: normal;
+    margin-bottom: 20px;
+ 
+}
+ 
+h2 {
+ 
+    font-family: "LoveloBlack";
+    font-size: 39pt;
+    line-height: 45pt;
+ 
+}
+ 
+p {
+ 
+    font-family: "Lato";
+    font-size: 25pt;
+    line-height: 40pt;
+    font-weight: 200;
+    color: black;
+    text-indent: 2em;
+    margin-bottom: 30px;
+ 
+}
+ 
+p.first {
+ 
+    text-indent: 0;
+ 
+}
+ 
+.hr {
+ 
+    height: 2px;
+    width: 100%;
+    border-top: 2px solid #888;
+    margin: 10px 0;
+ 
+}
+ 
+.card {
+ 
+    width: 100vw;
+    max-width: 100%;
+    position: relative;
+ 
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    display: flex;
+ 
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    -webkit-flex-align: center;
+    align-items: center;
+    justify-content: center;
+ 
+    background-size: cover;
+ 
+}
+ 
+.center {
+ 
+    text-align: center;
+ 
+}
+ 
 #jumbo {
-
+ 
     height: 100vh;
-
+ 
     background: linear-gradient(135deg, #00c2a2, #bf00ff);
     background-size: 400% 400%;
-
+ 
     -webkit-animation: Gradient 30s linear infinite;
     -moz-animation: Gradient 30s linear infinite;
     -o-animation: Gradient 30s linear infinite;
     animation: Gradient 30s linear infinite;
-
+ 
+}
+ 
+#jumbo-text {
+ 
+    width: 800px;
+    height: 360px;
+ 
+}
+ 
+#jumbo-text h1 {
+ 
+    font-family: "LoveloLineLight";
+    font-size: 110px;
+    font-weight: normal;
+    line-height: 95px;
+    color: white;
+ 
+}
+ 
+#jumbo-text p {
+ 
+    font-family: "LoveloBlack";
+    font-size: 40px;
+    line-height: 40px;
+    color: white;
+ 
+    margin: 20px 0 20px 0;
+ 
+}
+ 
+#jumbo-arrow {
+ 
+    width: 60px;
+    height: 60px;
+    bottom: 20px;
+    margin: auto;
+    margin-top: 120px;
+ 
+    background-image: url("../images/scrolldown.png");
+    background-size: cover;
+ 
+    cursor: pointer;
+ 
+}
+ 
+.social {
+ 
+    width: 60px;
+    height: 60px;
+    display: inline;
+    float: left;
+    background-size: cover;
+    margin-right: 5px;
+    opacity: 0.6;
+    cursor: pointer;
+ 
+    -webkit-transition: opacity 0.2s;
+    -moz-transition: opacity 0.2s;
+    -o-transition: opacity 0.2s;
+    transition: opacity 0.2s;
+ 
+}
+ 
+.social:hover {
+ 
+    opacity: 1;
+ 
+}
+ 
+#fb {
+ 
+    background-image: url("../images/fbicon.png");
+ 
+}
+ 
+#twitter {
+ 
+    background-image: url("../images/twittericon.png");
+ 
+}
+ 
+#linkedin {
+ 
+    background-image: url("../images/linkedinicon.png");
+ 
+}
+ 
+#github {
+ 
+    background-image: url("../images/githubicon.png");
+ 
+}
+ 
+#mail {
+ 
+    background-image: url("../images/mailicon.png");
+ 
+}
+ 
+#hello {
+ 
+    background-color: white;
+ 
+}
+ 
+#hello-content {
+ 
+    width: 800px;
+    margin: 100px;
+ 
+}
+ 
+#ani-pic {
+ 
+    background-image: url("../images/aniruddh.png");
+    width: 400px;
+    height: 400px;
+    background-size: cover;
+    background-position: center;
+    border-radius: 200px;
+    margin: auto;
+ 
+    margin-bottom: 70px;
+ 
+}
+ 
+#boston {
+ 
+    height: 600px;
+    background-image: url("../images/boston.jpg");
+ 
+}
+ 
+#boston-content {
+ 
+    width: 800px;
+    color: white;
+ 
+}
+ 
+#boston-content h2 {
+ 
+    text-shadow: 4px 4px 7px black;
+ 
+}
+ 
+#projects-content {
+ 
+    width: 800px;
+    margin: 100px;
+ 
+}
+ 
+.project-box {
+ 
+    width: 100%;
+    height: 300px;
+    cursor: pointer;
+ 
+}
+ 
+.pic-site {
+ 
+    width: 100%;
+    height: 100%;
+    background-color: rgba(255,255,255,0.2);
+    opacity: 0;
+ 
+}
+ 
+.project, .pic {
+ 
+    width: 50%;
+    height: 100%;
+    background-size: cover;
+    margin: 0;
+    display: inline;
+    float: left;
+    background-position: center;
+ 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+ 
+}
+ 
+.project-content h1 {
+ 
+    font-family: "LoveloBlack";
+    font-size: 30pt;
+    margin: 0;
+    line-height: 30pt;
+ 
+}
+ 
+.project-content p {
+ 
+    font-size: 16pt;
+    line-height: 24pt;
+    text-indent: 0;
+    margin-bottom: 0;
+ 
+}
+ 
+.project, .project {
+ 
+    padding: 30px;
+ 
+}
+ 
+#metrohacks-right {
+ 
+    background-image: url("../images/metrohacks.png");
+ 
+}
+ 
+#mouse-left {
+ 
+    background-image: url("../images/3dmouse.png");
+ 
+}
+ 
+#a3academy-right {
+ 
+    background-image: url("../images/a3academy.png");
+ 
+}
+ 
+#crypton-left {
+ 
+    background-image: url("../images/crypton.png");
+ 
+}
+ 
+#projects-content a {
+ 
+    color: black;
+    cursor: pointer;
+ 
+}
+ 
+#jumbo-text a:hover, #projects-content a:hover, #projects-content a:visited, #projects-content a:active {
+ 
+    color: black;
+ 
+}
+ 
+#contact {
+ 
+    background: linear-gradient(135deg, #00c2a2, #bf00ff);
+    background-size: 400% 400%;
+ 
+    -webkit-animation: Gradient 30s linear infinite;
+    -moz-animation: Gradient 30s linear infinite;
+    -o-animation: Gradient 30s linear infinite;
+    animation: Gradient 30s linear infinite;
+ 
+}
+ 
+#contact-content {
+ 
+    width: 800px;
+    margin: 100px;
+    color: white;
+    text-align: center;
+ 
+}
+ 
+#contact-content a {
+ 
+    text-decoration: none;
+ 
+}
+ 
+#contact-content .social {
+ 
+    display: inline-block;
+    width: 70px;
+    height: 70px;
+    margin: 10px;
+    float: none;
+ 
 }

@@ -176,7 +176,7 @@ p.first {
  
     height: 100vh;
  
-    background: linear-gradient(135deg, #ED4728, #28ceed);
+    background: linear-gradient(45deg, red, blue);
     background-size: 400% 400%;
  
     -webkit-animation: Gradient 30s linear infinite;
